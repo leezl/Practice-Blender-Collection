@@ -1,0 +1,16 @@
+This folder contains the blends and object files used for my class projects in graphics.
+
+The images are not mine. They were found through google. 
+
+Planets
+cubes 
+spheres
+cylinders
+Air Hockey Boards
+Pucks
+Paddles
+Labyrinth Boards
+
+Note: The brightness is pumped up in the mtl files due to the lighting that I implemented in my shaders. The Lights were multiplied by the mtl values, but then scaled for multiple lights. It was simpler for me to have large values in the mtl files and alter the values of the lights and shaders than to try and recreate Blender's lighting.
+
+Also note there may be issues with certain textures: several objects rednered correctly in Blender but rendered with damaged textures and changing the texture image alone, not the texture coordinates or geometry fixed the problems. Not even the size of the image seemed related to this problem.
